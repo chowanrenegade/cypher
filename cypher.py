@@ -1,6 +1,6 @@
 print('Enter the encrypted Caesar cipher message')
 message = input('> ')
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 
 for key in range(len(SYMBOLS)):
 	translated = ''
